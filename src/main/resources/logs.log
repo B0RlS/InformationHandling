@@ -1,0 +1,54 @@
+[ERROR] 2018-10-04 21:35:11.346 [main] Main - Catch error
+by.etc.shape.exception.ParserException: Read error
+	at by.etc.shape.parser.impl.QuadParserImpl.read(QuadParserImpl.java:71) ~[classes/:?]
+	at by.etc.shape.parser.impl.QuadParserImpl.readValidate(QuadParserImpl.java:81) ~[classes/:?]
+	at by.etc.shape.main.Main.main(Main.java:27) [classes/:?]
+Caused by: java.nio.file.NoSuchFileException: ssrc/main/resources/text.txt
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86) ~[?:1.8.0_181]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[?:1.8.0_181]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107) ~[?:1.8.0_181]
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214) ~[?:1.8.0_181]
+	at java.nio.file.Files.newByteChannel(Files.java:361) ~[?:1.8.0_181]
+	at java.nio.file.Files.newByteChannel(Files.java:407) ~[?:1.8.0_181]
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384) ~[?:1.8.0_181]
+	at java.nio.file.Files.newInputStream(Files.java:152) ~[?:1.8.0_181]
+	at java.nio.file.Files.newBufferedReader(Files.java:2784) ~[?:1.8.0_181]
+	at java.nio.file.Files.readAllLines(Files.java:3202) ~[?:1.8.0_181]
+	at by.etc.shape.parser.impl.QuadParserImpl.read(QuadParserImpl.java:69) ~[classes/:?]
+	... 2 more
+[ERROR] 2018-10-04 21:39:02.401 [main] Main - Catch error
+by.etc.shape.exception.ParserException: Read error
+	at by.etc.shape.parser.impl.QuadParserImpl.read(QuadParserImpl.java:71) ~[classes/:?]
+	at by.etc.shape.parser.impl.QuadParserImpl.readValidate(QuadParserImpl.java:81) ~[classes/:?]
+	at by.etc.shape.main.Main.main(Main.java:27) [classes/:?]
+Caused by: java.nio.file.NoSuchFileException: ssrc/main/resources/text.txt
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86) ~[?:1.8.0_181]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[?:1.8.0_181]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107) ~[?:1.8.0_181]
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214) ~[?:1.8.0_181]
+	at java.nio.file.Files.newByteChannel(Files.java:361) ~[?:1.8.0_181]
+	at java.nio.file.Files.newByteChannel(Files.java:407) ~[?:1.8.0_181]
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384) ~[?:1.8.0_181]
+	at java.nio.file.Files.newInputStream(Files.java:152) ~[?:1.8.0_181]
+	at java.nio.file.Files.newBufferedReader(Files.java:2784) ~[?:1.8.0_181]
+	at java.nio.file.Files.readAllLines(Files.java:3202) ~[?:1.8.0_181]
+	at by.etc.shape.parser.impl.QuadParserImpl.read(QuadParserImpl.java:69) ~[classes/:?]
+	... 2 more
+[ERROR] 2018-10-04 22:16:17.496 [main] Main - Catch error
+by.etc.shape.exception.ParserException: Read error
+	at by.etc.shape.parser.impl.QuadParserImpl.read(QuadParserImpl.java:71) ~[classes/:?]
+	at by.etc.shape.parser.impl.QuadParserImpl.readValidate(QuadParserImpl.java:81) ~[classes/:?]
+	at by.etc.shape.main.Main.main(Main.java:30) [classes/:?]
+Caused by: java.nio.file.NoSuchFileException: main/resources/text.txt
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86) ~[?:1.8.0_181]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[?:1.8.0_181]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107) ~[?:1.8.0_181]
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214) ~[?:1.8.0_181]
+	at java.nio.file.Files.newByteChannel(Files.java:361) ~[?:1.8.0_181]
+	at java.nio.file.Files.newByteChannel(Files.java:407) ~[?:1.8.0_181]
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384) ~[?:1.8.0_181]
+	at java.nio.file.Files.newInputStream(Files.java:152) ~[?:1.8.0_181]
+	at java.nio.file.Files.newBufferedReader(Files.java:2784) ~[?:1.8.0_181]
+	at java.nio.file.Files.readAllLines(Files.java:3202) ~[?:1.8.0_181]
+	at by.etc.shape.parser.impl.QuadParserImpl.read(QuadParserImpl.java:69) ~[classes/:?]
+	... 2 more
